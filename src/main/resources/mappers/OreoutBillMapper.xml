@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.stbm.transport.daos.OreoutBillMapper">
+  <resultMap id="BaseResultMap" type="com.stbm.transport.entity.OreoutBill">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="VARCHAR" property="id" />
+    <result column="plate_num" jdbcType="VARCHAR" property="plateNum" />
+    <result column="ore_name" jdbcType="CHAR" property="oreName" />
+    <result column="coal_type" jdbcType="CHAR" property="coalType" />
+    <result column="extract_num" jdbcType="VARCHAR" property="extractNum" />
+    <result column="pound_num" jdbcType="VARCHAR" property="poundNum" />
+    <result column="total_weight" jdbcType="DOUBLE" property="totalWeight" />
+    <result column="tare_weight" jdbcType="DOUBLE" property="tareWeight" />
+    <result column="net_weight" jdbcType="DOUBLE" property="netWeight" />
+    <result column="bill_time" jdbcType="VARCHAR" property="billTime" />
+    <result column="take_company" jdbcType="CHAR" property="takeCompany" />
+    <result column="car_state" jdbcType="CHAR" property="carState" />
+    <result column="remark" jdbcType="VARCHAR" property="remark" />
+  </resultMap>
+</mapper>
