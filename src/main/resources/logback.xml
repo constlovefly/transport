@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE xml>
 <configuration debug="false">
     <!--定义日志文件的存储地址 勿在 LogBack 的配置中使用相对路径-->
     <property name="LOG_HOME" value="g:/logfile/" />
@@ -41,8 +40,8 @@
         </triggeringPolicy>
     </appender>
 
-    <!-- 日志输出级别 -->
-    <root>
+    <!-- 全局应用该日志配置 -->
+    <root level="INFO">
         <appender-ref ref="STDOUT" />
         <appender-ref ref="FILE" />
     </root>
