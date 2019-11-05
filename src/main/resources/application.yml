@@ -84,4 +84,3 @@ mybatis:
     notEmpty: true
   #分模块放
   mapper-locations: classpath:mappers/*.xml #生成的sql语句
-  #
